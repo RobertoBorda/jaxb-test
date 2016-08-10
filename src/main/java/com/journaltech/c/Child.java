@@ -11,6 +11,6 @@ import javax.xml.bind.annotation.XmlType;
 @XmlAccessorType(XmlAccessType.FIELD)
 @XmlType(name = "Child")
 public class Child {
-    @XmlElement(name = "Teacher", namespace = "http://journaltech.com/p", required = true /*, nillable = true*/)
+    @XmlElement(name = "Parent", namespace = "http://journaltech.com/p", required = true, nillable = true)
     protected Parent parent;
 }
